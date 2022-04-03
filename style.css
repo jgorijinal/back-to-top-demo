@@ -1,0 +1,19 @@
+.back-to-top{
+    width: 100px;
+    padding: 6px 12px;
+    background: #696e93;
+    color: white;
+    border: 1px solid #696767;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: fixed;
+    right: 0;
+    bottom: 1em;
+    opacity: 0;
+}
+
+.back-to-top.visible{
+    transform: translateX(-20%) ;
+    opacity: 1;
+}
